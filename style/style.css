@@ -1,0 +1,67 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/* ID selector */
+#admin-box {
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+    color: rgb(34, 225, 79);
+    background-color: brown;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 7px brown;
+}
+#admin-box:hover{
+    color:black;
+    background-color: rgb(220, 112, 112);
+}
+/* Descendant Selector */
+#admin-box > img {
+    width: 75px;
+}
+#admin-box h1 {
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+
+}
+.username1  {
+    width: 500px;
+    color: rgb(34, 225, 79);
+    background-color: brown;
+    height: 23px;
+    outline: 1px solid;
+    font-style: italic;
+}
+.username2 {
+    width: 500px;
+    color:rgb(229, 237, 239);
+    background-color: rgb(178, 108, 57);
+    height: 23px;
+    outline: 1px solid;
+    font-style: italic;
+    
+
+}
+
+.username3  {
+    width: 30%;
+    color: rgb(16, 85, 14);
+    background-color: rgb(62, 167, 140);
+    height: 23px;
+    outline: 1.5px solid;
+    margin-top: 10px ;
+    font-size: 17px;
+    text-transform: capitalize;
+    
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+}
